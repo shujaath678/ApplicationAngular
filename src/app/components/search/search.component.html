@@ -1,0 +1,22 @@
+<p>
+  search works!
+</p>
+
+<label for="search">Search:</label>
+<input type="text" name="search" [(ngModel)]="searchText">
+<br><br>
+<button type="button" value="button" (click)="search()">Just click</button>
+
+
+<div *ngIf="selectedQuestions?.length > 0">
+  <table>
+    <tr>
+      <th>id</th>
+      <th>Question</th>
+    </tr>
+    <tr *ngFor="let question of selectedQuestions" (click)="detailedQuestion(question.id)">
+      <td>{{question.id}}</td>
+      <td>{{question.questionText}}</td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,24 @@
+<div *ngIf="questionDetails?.id">
+  <table>
+    <tr>
+      <td>Id</td>
+      <td>Question Text</td>
+      <td>Answer Options</td>
+      <td>Correct Answer</td>
+      <td>Author</td>
+      <td>Last Asked Date</td>
+      <td>Asked Count</td>
+      <td>Percent of users who answered correctly</td>
+    </tr>
+    <tr>
+      <td>{{questionDetails?.id}}</td>
+      <td>{{questionDetails?.questionText}}</td>
+      <td>{{questionDetails?.answerOptions}}</td>
+      <td>{{questionDetails?.correctAnswer}}</td>
+      <td>{{questionDetails?.author}}</td>
+      <td>{{questionDetails?.status.lastAskedDate}}</td>
+      <td>{{questionDetails?.status.askedCount}}</td>
+      <td>{{questionDetails?.status.percentOfUsersWhoAnsweredCorrectly}}</td>
+    </tr>
+  </table>
+</div>

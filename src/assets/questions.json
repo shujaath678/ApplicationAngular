@@ -1,0 +1,79 @@
+{
+    "questions": [
+        {
+            "id": "1",
+            "questionText" : "Is Tiger our national animal?",
+            "answerOptions" : [
+                "Yes", "No", "May Be"
+            ],
+            "correctAnswer" : "Yes",
+            "author" : "admin",
+            "status" : 
+            {  
+                "lastAskedDate" : "10/9/2020",
+                "askedCount": "89",
+                "percentOfUsersWhoAnsweredCorrectly" : "90%"
+            }
+        },
+        {
+            "id": "2",
+            "questionText" : "Is Peacock our national bird?",
+            "answerOptions" : [
+                "Yes", "No", "May Be"
+            ],
+            "correctAnswer" : "Yes",
+            "author" : "admin",
+            "status" : 
+            {  
+                "lastAskedDate" : "10/11/2020",
+                "askedCount": "76",
+                "percentOfUsersWhoAnsweredCorrectly" : "92%"
+            }
+        },
+        {
+            "id": "3",
+            "questionText" : "Is rose our national flower?",
+            "answerOptions" : [
+                "Yes", "No", "May Be"
+            ],
+            "correctAnswer" : "No",
+            "author" : "admin",
+            "status" : 
+            {  
+                "lastAskedDate" : "10/12/2020",
+                "askedCount": "95",
+                "percentOfUsersWhoAnsweredCorrectly" : "98%"
+            }
+        },
+        {
+            "id": "4",
+            "questionText" : "Are you feeling good?",
+            "answerOptions" : [
+                "Yes", "No", "May Be"
+            ],
+            "correctAnswer" : "May Be",
+            "author" : "admin",
+            "status" : 
+            {  
+                "lastAskedDate" : "10/12/2020",
+                "askedCount": "89",
+                "percentOfUsersWhoAnsweredCorrectly" : "56%"
+            }
+        },
+        {
+            "id": "5",
+            "questionText" : "Are you happy?",
+            "answerOptions" : [
+                "Yes", "No", "May Be"
+            ],
+            "correctAnswer" : "May Be",
+            "author" : "admin",
+            "status" : 
+            {  
+                "lastAskedDate" : "10/13/2020",
+                "askedCount": "72",
+                "percentOfUsersWhoAnsweredCorrectly" : "43%"
+            }
+        }
+    ]
+}
